@@ -1,0 +1,31 @@
+name: flutter_application_1
+description: "A 2.5D PC Building Simulator Educational Game."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flame: ^1.18.0
+  # BARIS TAMBAHAN UNTUK UNITY:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/level3/
+  
